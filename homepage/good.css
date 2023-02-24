@@ -1,0 +1,111 @@
+body {
+  display: block;
+  box-sizing: border-box;
+  background-color: bisque;
+
+}
+
+.page-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16pt;
+  display: block;
+
+}
+
+div {
+  display: block;
+}
+
+.grid {
+  overflow: hidden;
+  padding-left: 5pt;
+  padding-right: 5pt;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250pt;
+  float: left;
+  z-index: 1;
+  outline: 1;
+  background-color: aliceblue;
+  padding-bottom: 100pt;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 85%;
+}
+
+img {
+  opacity: 97%;
+}
+
+.sidebar div {
+  font-size: 12pt;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.info {
+  padding: 10pt;
+}
+
+.sidebar hr {
+  background-color: lightgray;
+  margin: 15pt;
+}
+
+.body-text {
+  margin-left: 150px;
+  font-size: 10pt;
+}
+
+.loading-bar {
+  height: 10pt;
+  position: relative;
+  background: lightcyan;
+  border-radius: 10pt;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.loading-bar span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 5pt;
+  border-bottom-right-radius: 5pt;
+  border-top-left-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+  background-color: rgb(43, 194, 83);
+  background-image: url('code.gif');
+  background-repeat: repeat;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.content {
+  height: 100%;
+  width: 500pt;
+  float: left;
+  z-index: 1;
+  outline: 1;
+  background-color: white;
+  padding: 25pt;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 80%
+}
+
+.content div {
+  font-size: 12pt;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.time-cell {
+  width: 20%;
+  vertical-align: top;
+}
+
+.job-cell {
+  width: 80%;
+  padding-bottom: 10pt;
+}
