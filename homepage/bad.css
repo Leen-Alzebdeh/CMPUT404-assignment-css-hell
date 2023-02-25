@@ -88,6 +88,30 @@ div {
   font-size: 10pt;
 }
 
+.js {
+  background-color: #f1a165
+}
+
+.python {
+  background-color: yellow;
+}
+
+.java {
+  background-color: white
+}
+
+.c {
+  background-color: #eb4fff
+}
+
+.html {
+  background-color: #65fc46;
+}
+
+.mongo {
+  background-color: lightgray;
+}
+
 .loading-bar {
   height: 10pt;
   position: relative;
@@ -106,7 +130,6 @@ div {
 
 .loading-bar .loaderBar {
   position: absolute;
-  background: #fff;
 
   display: block;
   height: 100%;

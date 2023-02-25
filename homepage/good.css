@@ -112,3 +112,27 @@ img {
   width: 80%;
   padding-bottom: 10pt;
 }
+
+.js {
+  width: 75%
+}
+
+.python {
+  width: 85%
+}
+
+.java {
+  width: 65%
+}
+
+.c {
+  width: 60%
+}
+
+.html {
+  width: 55%
+}
+
+.mongo {
+  width: 45%
+}
