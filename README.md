@@ -1,6 +1,13 @@
 Assignment: CSS Hell
 ====================
 
+Part 1:
+What I changed: 
+1. Added a line to link to stylsheet style.css in the HTML files
+2. Changed an image name to cover2.png 
+References: https://codepen.io/AgnusDei/pen/NWPbOxL by Codepen user Christophe67
+Font: https://www.cdnfonts.com/gourdie-cursive.font 
+Part 2:
 References: 
 gif: https://tenor.com/view/code-gif-21239057
 loading bar: https://codepen.io/stoepke/pen/QOOqGW by author: codepen user Stoepek
